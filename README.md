@@ -1,6 +1,6 @@
 # optical-alignment skill
 
-This skill packages an optical-alignment thinking workflow for UI, typography, spacing, icons, and coded visual polish. It was synthesized from the uploaded `optically-perfect-design.pdf` and the uploaded skill-writing guide.
+This skill packages an optical-alignment thinking workflow for UI, typography, spacing, icons, and coded visual polish. 
 
 Use it when a design is technically aligned but visually off: headline edges, centered text, hanging punctuation, all-caps buttons, card padding, icon centering, and implementation handoff.
 
