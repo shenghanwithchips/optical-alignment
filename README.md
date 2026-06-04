@@ -29,3 +29,6 @@ python scripts/check_optical_alignment_output.py path/to/review.md
 ## Adapter idea for coding agents
 
 Add the content of `assets/agents-snippet.md` to your project-level `AGENTS.md`, Cursor Rule, or equivalent agent instruction file. Keep the detailed framework in this skill package rather than pasting everything into a global rule.
+
+## Licence
+MIT
