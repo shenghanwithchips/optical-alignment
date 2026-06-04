@@ -1,0 +1,47 @@
+{
+  "skill": "optical-alignment",
+  "positive_triggers": [
+    {
+      "prompt": "This hero headline is snapped to the grid but the left edge still looks weird. Can you review the optical alignment?",
+      "expected": "trigger",
+      "why": "Mentions headline, grid, and optical alignment issue."
+    },
+    {
+      "prompt": "My all-caps button has 20px padding on all sides but it looks too low. What should I do?",
+      "expected": "trigger",
+      "why": "Button padding and perceived vertical imbalance are core use cases."
+    },
+    {
+      "prompt": "The SVG play icon is mathematically centered in a 40px button but feels off-center in the UI.",
+      "expected": "trigger",
+      "why": "Icon optical centering and bounding-box mismatch."
+    },
+    {
+      "prompt": "Can you tune the hanging punctuation and optical margin alignment for this pull quote?",
+      "expected": "trigger",
+      "why": "Direct hanging punctuation and optical margin alignment request."
+    },
+    {
+      "prompt": "Review this coded component for visual craft. It feels like CSS is correct but the spacing looks wrong.",
+      "expected": "trigger",
+      "why": "Coded UI visual craft and spacing review."
+    }
+  ],
+  "negative_triggers": [
+    {
+      "prompt": "Explain flexbox alignment properties in CSS with examples.",
+      "expected": "do_not_trigger",
+      "why": "General CSS alignment education, not perceived optical correction."
+    },
+    {
+      "prompt": "Write a backend API endpoint for user login.",
+      "expected": "do_not_trigger",
+      "why": "No visual design alignment task."
+    },
+    {
+      "prompt": "Summarize this article about color psychology.",
+      "expected": "do_not_trigger",
+      "why": "No optical spacing/typography/icon issue."
+    }
+  ]
+}
