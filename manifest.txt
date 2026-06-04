@@ -1,0 +1,15 @@
+SKILL.md
+README.md
+manifest.txt
+references/framework.md
+references/typography.md
+references/spacing-icons.md
+references/implementation.md
+references/rubric.md
+references/source-map.md
+assets/review-template.md
+assets/agents-snippet.md
+scripts/validate_skill_package.py
+scripts/check_optical_alignment_output.py
+evals/trigger-evals.json
+evals/task-evals.md
